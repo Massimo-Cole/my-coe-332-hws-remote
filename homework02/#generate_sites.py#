@@ -1,0 +1,31 @@
+import json
+import random
+
+#generate 5 random latitude and longitudes between 16-18 and 82-82 degrees repecitivly
+
+min_lat =16.0
+max_lat = 18.0
+min_long = 82.0
+max_long = 84.0
+composition_list = ["stoney", "iron", "stoney-iron"]
+
+{
+    "sites": [
+        {
+            "site_id": 1,
+            "latitude": random.randrange(min_lat, max_lat)
+            "longitude": random.randrange(min_long, max_long)
+            "composition": random.choice(composition_list)
+        },
+        {
+            "site_id": 1,
+            "latitude": random.randrange(min_lat, max_lat)
+            "longitude": random.randrange(min_long, max_long)
+            "composition": random.choice(composition_list)
+        },
+{
+            "site_id": 1,
+            "latitude": random.randrange(min_lat, max_lat)
+            "longitude": random.randrange(min_long, max_long)
+            "composition": random.choice(composition_list)
+        },
