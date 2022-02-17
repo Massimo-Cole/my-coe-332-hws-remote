@@ -27,15 +27,16 @@ using pytest. (was not finished due to time constraints)
 ### How to Run
 After downloading the file, run the water_analyzer.py script with python3
 
-~~
+~~~
 python3 water_analyzer.py
-~~
+~~~
+
 The program will then out put into the command line the current turbity level of the water, a warning if the current
 turbity level exceeds the safe treshold, and a time estimation for when the water will settle to a safe turbidity
 level.
 
-~~
+~~~
 Average turbidity based on most recent five measurements = 1.1992 NTU
 Warning: Turbidity is above threshold for safe use
 Minimum time required to return below a safe threshold = 8.99 hours
-~~
+~~~
